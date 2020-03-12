@@ -1,0 +1,19 @@
+<div class="container" style="box-sizing: border-box; background-color: orange; width: 700px; height: fit-content; align-content: center;">
+  <h1>{{title}}</h1>
+  <br>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <!-- Links -->
+      <div class="navbar-nav">
+          <ul class="nav-item">
+              <a routerLink="employees" class="btn btn-primary active" role="button" routerLinkActive="active">Employees</a>
+          </ul>
+          <ul class="nav-item" style="align-items: center;">
+              <a routerLink="add" class="btn btn-primary active" role="button" routerLinkActive="active">Add</a>
+          </ul>
+        </div>
+
+  </nav>
+  <router-outlet></router-outlet>
+</div>
+  
+
